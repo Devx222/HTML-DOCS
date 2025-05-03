@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Comprehensive HTML documentation for beginners and experts.">
+    <title>HTML Documentation | GitHub</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom Styles -->
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f4f7fa;
+            color: #333;
+        }
+        .navbar {
+            background-color: #4CAF50;
+        }
+        .navbar a {
+            color: white;
+        }
+        .jumbotron {
+            background-color: #4CAF50;
+            color: white;
+            padding: 50px 20px;
+        }
+        .card {
+            border-radius: 10px;
+            overflow: hidden;
+        }
+        .card-body {
+            padding: 20px;
+        }
+        .section-title {
+            font-size: 1.5rem;
+            color: #4CAF50;
+            margin-bottom: 20px;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            padding: 10px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-light">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#">DEVENDRA</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#introduction">Introduction</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#history">HTML History</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#basics">Basics</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#tags">Important Tags</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#attributes">HTML Attributes</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#advanced">Advanced</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#interview-questions">Interview Questions</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<!-- Jumbotron -->
+<div class="jumbotron text-center">
+    <h1 class="display-4">HTML Documentation</h1>
+    <p class="lead">Everything you need to know about HTML, from basics to advanced topics.</p>
+</div>
+
+<!-- Introduction Section -->
+<section id="introduction" class="container py-5">
+    <h2 class="section-title">Introduction to HTML</h2>
+    <p>HTML stands for HyperText Markup Language. It is the standard language used to create web pages. HTML provides the structure for web content, while CSS and JavaScript enhance the styling and functionality.</p>
+</section>
+
+<!-- HTML History Section -->
+<section id="history" class="container py-5">
+    <h2 class="section-title">History of HTML</h2>
+    <p>HTML was created by Tim Berners-Lee in 1991, as part of the World Wide Web project. The goal was to standardize a system for linking documents and allowing them to be easily displayed across different browsers and devices. The first version, HTML 1.0, was released in 1991. Since then, HTML has gone through various versions, with HTML5 being the latest.</p>
+    <p>Key Milestones in HTML History:</p>
+    <ul>
+        <li>1991: HTML 1.0 - The first version of HTML.</li>
+        <li>1995: HTML 2.0 - The first official version.</li>
+        <li>1999: HTML 4.01 - Added support for multimedia elements.</li>
+        <li>2014: HTML5 - Introduced features like video/audio support and improved semantics.</li>
+    </ul>
+</section>
+
+<!-- Basics Section -->
+<section id="basics" class="container py-5">
+    <h2 class="section-title">HTML Basics</h2>
+    <div class="row">
+        <div class="col-md-6">
+            <div class="card mb-4">
+                <div class="card-body">
+                    <h5 class="card-title">HTML Structure</h5>
+                    <p class="card-text">An HTML document consists of elements such as the doctype, HTML tags, head, and body sections.</p>
+                    <a href="#" class="btn btn-success">Learn More</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="card mb-4">
+                <div class="card-body">
+                    <h5 class="card-title">HTML Tags</h5>
+                    <p class="card-text">HTML tags are used to define elements on a page. For example, <code>&lt;h1&gt;</code> is used for headers, <code>&lt;p&gt;</code> for paragraphs.</p>
+                    <a href="#" class="btn btn-success">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Important HTML Tags Section -->
+<section id="tags" class="container py-5">
+    <h2 class="section-title">Important HTML Tags</h2>
+    <ul>
+        <li><code>&lt;html&gt;</code> - Defines the document as HTML.</li>
+        <li><code>&lt;head&gt;</code> - Contains metadata, title, and links to external files.</li>
+        <li><code>&lt;body&gt;</code> - Contains the visible content of the webpage.</li>
+        <li><code>&lt;h1&gt; to &lt;h6&gt;</code> - Defines headers, with <code>&lt;h1&gt;</code> being the highest level.</li>
+        <li><code>&lt;p&gt;</code> - Defines a paragraph of text.</li>
+        <li><code>&lt;img&gt;</code> - Embeds an image in the page.</li>
+        <li><code>&lt;a&gt;</code> - Defines a hyperlink.</li>
+        <li><code>&lt;div&gt;</code> - A container used to group elements.</li>
+        <li><code>&lt;ul&gt;</code> and <code>&lt;ol&gt;</code> - Define unordered and ordered lists, respectively.</li>
+    </ul>
+</section>
+
+<!-- HTML Attributes Section -->
+<section id="attributes" class="container py-5">
+    <h2 class="section-title">HTML Attributes</h2>
+    <p>Attributes provide additional information about an element. They are added to HTML tags and usually come in name-value pairs.</p>
+    <ul>
+        <li><code>href</code> - Specifies the URL for a hyperlink (<code>&lt;a&gt;</code> tag).</li>
+        <li><code>src</code> - Specifies the source for an image (<code>&lt;img&gt;</code> tag).</li>
+        <li><code>alt</code> - Provides alternative text for an image, used for accessibility.</li>
+        <li><code>class</code> - Specifies one or more class names for an element (used for CSS styling).</li>
+        <li><code>id</code> - Specifies a unique identifier for an element, useful for styling and JavaScript manipulation.</li>
+        <li><code>style</code> - Specifies inline CSS styles for an element.</li>
+        <li><code>target</code> - Defines where to open the linked document (e.g., <code>_blank</code> opens in a new tab).</li>
+    </ul>
+</section>
+
+<!-- Advanced Section -->
+<section id="advanced" class="container py-5">
+    <h2 class="section-title">Advanced HTML Topics</h2>
+    <div class="row">
+        <div class="col-md-6">
+            <div class="card mb-4">
+                <div class="card-body">
+                    <h5 class="card-title">Forms and Input</h5>
+                    <p class="card-text">Forms are essential for collecting data from users. HTML provides various input elements such as text fields, checkboxes, and buttons.</p>
+                    <a href="#" class="btn btn-success">Learn More</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="card mb-4">
+                <div class="card-body">
+                    <h5 class="card-title">Multimedia in HTML</h5>
+                    <p class="card-text">HTML supports embedding images, audio, and video into web pages using the <code>&lt;img&gt;</code>, <code>&lt;audio&gt;</code>, and <code>&lt;video&gt;</code> elements.</p>
+                    <a href="#" class="btn btn-success">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Interview Questions Section -->
+<section id="interview-questions" class="container py-5">
+    <h2 class="section-title">HTML Interview Questions</h2>
+    <ul>
+        <li>What is the difference between HTML and XHTML?</li>
+        <li>Explain the concept of semantic HTML.</li>
+        <li>What are the advantages of using HTML5?</li>
+        <li>What is the purpose of the <code>&lt;head&gt;</code> tag in HTML?</li>
+        <li>What is the difference between an inline and block element in HTML?</li>
+    </ul>
+</section>
+
+<!-- Footer -->
+<footer>
+    <p>&copy; 2025 HTML Docs | All Rights Reserved | <a href="https://github.com/your-repo" class="text-white">GitHub Repo</a></p>
+</footer>
+
+<!-- Bootstrap JS, Popper.js -->
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"></script>
+</body>
+</html>
